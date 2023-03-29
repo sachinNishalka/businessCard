@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.teal,
           body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
                 radius: 50.0,
@@ -35,6 +36,13 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     fontSize: 15.0,
                     letterSpacing: 4),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 350.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
               ),
               Card(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
