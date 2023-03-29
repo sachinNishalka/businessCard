@@ -36,54 +36,36 @@ class MyApp extends StatelessWidget {
                     fontSize: 15.0,
                     letterSpacing: 4),
               ),
-              Container(
+              Card(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                padding: EdgeInsets.all(10),
                 color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(Icons.phone, color: Colors.teal,),
+                  title: Text(
+                    "+94 123 456 789",
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'SourceSansPro',
+                      fontWeight: FontWeight.normal,
+                      fontSize: 15.0,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "+94 123 456 789",
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: 'SourceSansPro',
-                        fontWeight: FontWeight.normal,
-                        fontSize: 15.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
-              Container(
+              Card(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                padding: EdgeInsets.all(10),
                 color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.email,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(Icons.email, color: Colors.teal,),
+                  title: Text(
+                    "sachin@sachinnishalka.com",
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'SourceSansPro',
+                      fontWeight: FontWeight.normal,
+                      fontSize: 15.0,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "sachin@sachinnishalka.com",
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: 'SourceSansPro',
-                        fontWeight: FontWeight.normal,
-                        fontSize: 15.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ],
