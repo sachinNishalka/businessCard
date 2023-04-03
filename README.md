@@ -6,7 +6,7 @@ This is a simple flutter App which shows your details in a designed UI using Flu
 
 ![Screenshot from 2023-04-03 16-37-47](https://user-images.githubusercontent.com/72740598/229492572-d92f54cc-14de-4f51-a3cd-a4fa490ccdbb.png)
 
-### What I`ve learned
+### You will find
 - Circle Avatar Widget 
 - Sized Box Widget
 - Cards Widget
